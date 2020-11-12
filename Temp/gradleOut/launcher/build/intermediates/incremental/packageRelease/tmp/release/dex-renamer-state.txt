@@ -1,0 +1,4 @@
+#Wed Nov 11 19:36:06 ECT 2020
+base.0=/home/cris-pc/Documents/2020A.Degree Planning/Proyecto-Code/covidcitoMalhechor/Temp/gradleOut/launcher/build/intermediates/dex/release/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
