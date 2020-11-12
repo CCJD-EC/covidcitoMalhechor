@@ -28,6 +28,13 @@
           <e p="PlaceOnPlane.cs" t="Include" />
           <e p="controller.cs" t="Include" />
         </e>
+        <e p="Shaders" t="Include">
+          <e p="DepthGradient.shader" t="Include" />
+          <e p="FeatheredPlaneShader.shader" t="Include" />
+          <e p="HumanStencil.shader" t="Include" />
+          <e p="Normal.shader" t="Include" />
+          <e p="NormalOverlay.shader" t="Include" />
+        </e>
       </e>
       <e p="Temp/bin" t="ExcludeRecursive" />
       <e p="covidcitoMalhechor.sln" t="IncludeFlat" />
