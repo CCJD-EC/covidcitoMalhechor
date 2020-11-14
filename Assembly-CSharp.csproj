@@ -51,13 +51,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GUI\DynamicContentController.cs" />
+     <Compile Include="Assets\Scripts\GUI\RawImageVideoPlayer.cs" />
      <Compile Include="Assets\Scripts\GUI\Shared Resources\Scripts\ExpandInformation.cs" />
+     <Compile Include="Assets\Scripts\GUI\PlaneDiscoveryGuide.cs" />
      <Compile Include="Assets\Scripts\PlaceOnPlane.cs" />
      <Compile Include="Assets\Scripts\GUI\Runtime\TransitionEffect.cs" />
      <Compile Include="Assets\Scripts\GUI\Runtime\SimpleScrollSnap.cs" />
-     <Compile Include="Assets\Scripts\GUI\RawImageVideoPlayer.cs" />
-     <Compile Include="Assets\Scripts\controller.cs" />
-     <Compile Include="Assets\Scripts\GUI\PlaneDiscoveryGuide.cs" />
+     <Compile Include="Assets\Scripts\SpawnObjectPlane.cs" />
      <None Include="Assets\Shaders\HumanStencil.shader" />
      <None Include="Assets\Shaders\FeatheredPlaneShader.shader" />
      <None Include="Assets\Shaders\DepthGradient.shader" />

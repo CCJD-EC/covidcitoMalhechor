@@ -1,4 +1,5 @@
 *.apk
 .idea/
 Assets/
-
+Library/Artifacts/
+Temp/
