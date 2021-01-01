@@ -200,7 +200,7 @@ public class PlaneDiscoveryGuide : MonoBehaviour
 
             _isLostTrackingDisplayed = true;
             return;
-        } else if (_isLostTrackingDisplayed)
+        }else if (_isLostTrackingDisplayed)
         {
             // The session has moved from the lost tracking state.
             _isLostTrackingDisplayed = false;

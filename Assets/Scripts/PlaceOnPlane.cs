@@ -18,24 +18,24 @@ namespace UnityEngine.XR.ARFoundation.Samples
         [SerializeField]
         [Tooltip("Instantiates this prefab on a plane at the touch location.")]
         GameObject m_PlacedPrefab;
+        public GameObject another_prefab;
 
-        /// <summary>
-        /// The prefab to instantiate on touch.
-        /// </summary>
-        public GameObject placedPrefab
-        {
-            get { return m_PlacedPrefab; }
-            set { m_PlacedPrefab = value; }
-        }
-
+        
+        
         /// <summary>
         /// The object instantiated as a result of a successful raycast intersection with a plane.
         /// </summary>
         public GameObject spawnedObject { get; private set; }
+        public GameObject itemOn { get; private set; }
 
         void Awake()
         {
             m_RaycastManager = GetComponent<ARRaycastManager>();
+        }
+
+        void Start()
+        {
+            m_animator = GetComponent<Animator>();
         }
 
         bool TryGetTouchPosition(out Vector2 touchPosition)
@@ -64,14 +64,44 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 if (spawnedObject == null)
                 {
                     spawnedObject = Instantiate(m_PlacedPrefab, hitPose.position, hitPose.rotation);
+                    /*var position = spawnedObject.transform.position;
+                    itemOn= Instantiate(another_prefab, new Vector3(position.x,
+                            position.y +10f, position.z), m_PlacedPrefab.transform.rotation);*/
+                }
+                else
+                {
+                    itemOn.transform.position = hitPose.position;
+
                 }
                 /*else
                 {
                     spawnedObject.transform.position = hitPose.position;
                 }*/
+                
+                
             }
         }
+        bool AnimatorIsPlaying()
+        {
+            return m_animator.GetCurrentAnimatorStateInfo(0).length >
+                   m_animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
+        }
 
+        private Animator m_animator;
+        private List<GameObject> n_items = new List<GameObject>();
+
+        private List<Vector3> n_coordinates = new List<Vector3>()
+        {
+            new Vector3(-0.3f, 1f, -0.1f),
+            new Vector3(-0.3f, 1f, 0.3f),
+            new Vector3(-0.3f, 1f, 0.08f),
+            new Vector3(-0.1f, 1f, 0),
+            new Vector3(0.3f, 1f, 0),
+        };
+
+        private float YpositionAbs = 0;
+
+        static List<GameObject> n_Items = new List<GameObject>();
         static List<ARRaycastHit> s_Hits = new List<ARRaycastHit>();
 
         ARRaycastManager m_RaycastManager;
