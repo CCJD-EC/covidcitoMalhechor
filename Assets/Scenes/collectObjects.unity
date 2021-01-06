@@ -754,7 +754,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1292357824588712989, guid: 94e1b7b01330c23a0905f63781f0b2c6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1292357824588713441, guid: 94e1b7b01330c23a0905f63781f0b2c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2760,6 +2760,7 @@ GameObject:
   - component: {fileID: 626133069}
   - component: {fileID: 626133068}
   - component: {fileID: 626133070}
+  - component: {fileID: 626133071}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -2828,15 +2829,29 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626133065}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a372f9942e128c05da983bfb028b90eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placedPrefab: {fileID: 9016391758957655406, guid: 7ac0c956e55a0946ebb61ecdf55ee222, type: 3}
+  placedPrefab: {fileID: 8016388164853988517, guid: dfaf02c2fc618ccdc98877dbd0761aa6, type: 3}
   welcomePanel: {fileID: 1401425518}
   arCamera: {fileID: 1338091674}
   dissmissButton: {fileID: 305614788}
+--- !u!114 &626133071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626133065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5293b79f725b468d297f769d7bd82b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placedPrefab: {fileID: 2185325755437702288, guid: c6c1ceed91be7d528a0ba3142bc631ac, type: 3}
+  arPlaneManager: {fileID: 626133069}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -4666,7 +4681,7 @@ GameObject:
   - component: {fileID: 1338091675}
   m_Layer: 0
   m_Name: AR Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4740,8 +4755,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4966719baa26e4b0e8231a24d9bd491a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FocusMode: -1
-  m_LightEstimationMode: -1
+  m_FocusMode: 0
+  m_LightEstimationMode: 1
 --- !u!114 &1338091677
 MonoBehaviour:
   m_ObjectHideFlags: 0

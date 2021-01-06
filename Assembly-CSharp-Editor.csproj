@@ -108,6 +108,9 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>/home/cris-pc/Documents/2020A.Degree Planning/Proyecto-Code/covidcitoMalhechor/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+ <HintPath>/home/cris-pc/Documents/2020A.Degree Planning/Proyecto-Code/covidcitoMalhechor/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
  <HintPath>/home/cris-pc/Documents/2020A.Degree Planning/Proyecto-Code/covidcitoMalhechor/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
