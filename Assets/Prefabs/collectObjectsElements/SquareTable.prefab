@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9016391758957753292}
   - component: {fileID: 6574238328796049616}
   - component: {fileID: 7388963318016369145}
-  - component: {fileID: 318183756374033437}
+  - component: {fileID: 6811271706748409173}
   m_Layer: 0
   m_Name: SquareTable
   m_TagString: Untagged
@@ -133,7 +133,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &318183756374033437
+--- !u!114 &6811271706748409173
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,4 +145,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79629c7b311a918c38c9af13874669a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_prefab: {fileID: 2997923678012918895, guid: fbe3a7df09fe3fee4853f21fa649394f, type: 3}
+  m_prefab: {fileID: 8840451374597167341, guid: 32bb4e19cb5c32f55b816294efc2e268, type: 3}

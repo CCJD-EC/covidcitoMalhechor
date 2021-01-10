@@ -3,106 +3,64 @@
     "m_SelectedPackage": {
         "deviceId": "ce05160565b1073603",
         "name": "com.epn.covidcitoMalhechor",
-        "processId": 24029,
-        "exited": false
+        "processId": 8978,
+        "exited": true
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.sec.android.app.launcher",
-            "processId": 13739,
+            "processId": 5327,
             "exited": false
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.whatsapp",
-            "processId": 30084,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 16000,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 17813,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 27696,
-            "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.vanced.android.youtube",
-            "processId": 7038,
+            "processId": 30275,
             "exited": false
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 3993,
+            "processId": 8859,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.samsung.android.MtpApplication",
-            "processId": 6225,
-            "exited": false
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 11702,
+            "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 9369,
-            "exited": false
+            "processId": 19714,
+            "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 11656,
-            "exited": false
+            "processId": 21667,
+            "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 13481,
-            "exited": false
+            "processId": 23436,
+            "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 15729,
-            "exited": false
+            "processId": 25794,
+            "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 16932,
-            "exited": false
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 19614,
-            "exited": false
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 21889,
-            "exited": false
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 24029,
-            "exited": false
+            "processId": 8978,
+            "exited": true
         }
     ],
     "m_Tags": {

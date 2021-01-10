@@ -115,8 +115,16 @@ public class PlaneDiscoveryGuide : MonoBehaviour
     /// <param name="guideEnabled">Enable/Disable the guide.</param>
     void Update()
     {
-        UpdateDetectedPlaneTrackingState();
-        UpdateUI();
+        try
+        {
+            UpdateDetectedPlaneTrackingState();
+            UpdateUI();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
     }
 
     public void EnablePlaneDiscoveryGuide(bool guideEnabled)
