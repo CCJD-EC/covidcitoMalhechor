@@ -115,16 +115,9 @@ public class PlaneDiscoveryGuide : MonoBehaviour
     /// <param name="guideEnabled">Enable/Disable the guide.</param>
     void Update()
     {
-        try
-        {
-            UpdateDetectedPlaneTrackingState();
-            UpdateUI();
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            throw;
-        }
+        UpdateDetectedPlaneTrackingState();
+        UpdateUI();
+   
     }
 
     public void EnablePlaneDiscoveryGuide(bool guideEnabled)
@@ -173,22 +166,30 @@ public class PlaneDiscoveryGuide : MonoBehaviour
     /// </summary>
     void UpdateDetectedPlaneTrackingState()
     {
-        if (ARSession.state == ARSessionState.SessionTracking)
+        try
         {
-            return;
-        }
-
-        foreach (var plane in m_ARPlaneManager.trackables)
-        {
-            if (plane.trackingState == TrackingState.Tracking)
+            if (ARSession.state == ARSessionState.SessionTracking)
             {
-                _detectedPlaneElapsed += Time.deltaTime;
-                _notDetectedPlaneElapsed = 0f;
                 return;
             }
 
-            _detectedPlaneElapsed = 0f;
-            _notDetectedPlaneElapsed += Time.deltaTime;
+            foreach (var plane in m_ARPlaneManager.trackables)
+            {
+                if (plane.trackingState == TrackingState.Tracking)
+                {
+                    _detectedPlaneElapsed += Time.deltaTime;
+                    _notDetectedPlaneElapsed = 0f;
+                    return;
+                }
+
+                _detectedPlaneElapsed = 0f;
+                _notDetectedPlaneElapsed += Time.deltaTime;
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.Log("Error to find planes, please check the area correctly \n"+e.Message);
+            throw;
         }
     }
 

@@ -50,8 +50,14 @@ public class PlacementWithDraggingDroppingController : MonoBehaviour
 
                 if (Physics.Raycast(ray, out hitObject))
                 {
+                    
+
                     if (hitObject.transform.name.Contains("PlacedObject"))
+                    {
+                        Debug.Log("I had touched a spray");
                         onTouchHold = true;
+                    }
+                        
                 }
             }
 

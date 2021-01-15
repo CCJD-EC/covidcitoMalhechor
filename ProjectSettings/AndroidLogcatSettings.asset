@@ -1,10 +1,10 @@
 {
     "m_SelectedDeviceId": "ce05160565b1073603",
     "m_SelectedPackage": {
-        "deviceId": "ce05160565b1073603",
-        "name": "com.epn.covidcitoMalhechor",
-        "processId": 8978,
-        "exited": true
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
+        "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -16,50 +16,38 @@
         },
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.vanced.android.youtube",
-            "processId": 30275,
+            "name": "com.bianor.amspersonal",
+            "processId": 21187,
             "exited": false
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 8859,
+            "processId": 27566,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 11702,
+            "processId": 29684,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 19714,
+            "processId": 31157,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 21667,
+            "processId": 3801,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 23436,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 25794,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 8978,
+            "processId": 6761,
             "exited": true
         }
     ],
@@ -113,7 +101,7 @@
         "MemoryGroup": 1,
         "Behavior": 1
     },
-    "m_Filter": "",
+    "m_Filter": "I had touched a spray",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }
