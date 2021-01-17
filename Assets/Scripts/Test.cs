@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class Test : MonoBehaviour
 {
@@ -21,11 +21,16 @@ public class Test : MonoBehaviour
         new Vector3(0.09f, 0.95f, 0.119f),
         new Vector3(0.082f, 0.95f, -0.126f),
         new Vector3(-0.331f, 0.95f, 0.169f),
-        new Vector3(0.349f, 0.95f, -0.299f)
+        new Vector3(0.331f, 0.95f, 0.049f)
     };
 
+    
     private float _ypositionAbs = 0;
-
+    public GameObject[] MPrefab
+    {
+        get => mPrefab;
+        set => mPrefab = value;
+    }
     void Start()
     {
         m_animator = GetComponent<Animator>();
@@ -59,23 +64,32 @@ public class Test : MonoBehaviour
 
             n_coordinates.Clear();
             n_coordinates = tempCoord;
-            Debug.Log("New Array position " + n_coordinates);
+           Debug.Log("New Array position " + n_coordinates);
         }
         else
         {
             var i = 0;
             foreach (var item in n_items)
             {
-                Debug.Log("Objects List" + n_items.Count + "Y abs " + _ypositionAbs);
-                if (item.transform.position.y < 0.75f || item.transform.position.y > _ypositionAbs)
-                {
-                    Destroy(n_items[i]);
-                    n_items[i] = Instantiate(item, n_coordinates[i], transform.rotation);
-                    Debug.Log("Object Deleted");
-                    Debug.Log("Objects List" + n_items.Count);
-                    return;
-                }
+                Debug.Log("Objects List" + n_items.Count);
 
+                try
+                {
+                    var state = item.GetComponent<Propierties>().Vstate;
+                    if (state.Equals("D"))
+                    {
+                        Debug.Log("Objects List" + n_items.Count + "Y abs " + _ypositionAbs);
+                        Destroy(n_items[i]);
+                        n_items[i] = Instantiate(item, n_coordinates[i], item.transform.rotation);
+                        Debug.Log("Object Deleted");
+                        return;
+                    }
+                }
+                catch (Exception e)
+                {
+                    Debug.Log("Error, Can't get a state");
+                }
+                
                 i++;
                 Debug.Log("n_coordinates[i].y " + i + " " + item.transform.position.y);
             }
@@ -87,4 +101,5 @@ public class Test : MonoBehaviour
         return m_animator.GetCurrentAnimatorStateInfo(0).length >
                m_animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
     }
+    
 }

@@ -158,6 +158,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 15170}
     - Class: 114
       Script: {instanceID: 15326}
+    - Class: 114
+      Script: {instanceID: 25252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -433,7 +435,7 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: f67c0eabf1700084ec2a18268eb18d11
+      Hash: 8e405d6aecd1dab453e67e9f72c6e738
     assemblyName: Assembly-CSharp.dll
     namespaceName: collectObjects
     className: MainScenary
