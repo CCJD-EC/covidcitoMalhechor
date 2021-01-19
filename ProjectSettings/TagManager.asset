@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Steps
   - Spray
+  - Table
+  - Bag
   layers:
   - Default
   - TransparentFX
