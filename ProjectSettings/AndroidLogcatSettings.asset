@@ -2,46 +2,64 @@
     "m_SelectedDeviceId": "ce05160565b1073603",
     "m_SelectedPackage": {
         "deviceId": "ce05160565b1073603",
-        "name": "com.sec.android.app.launcher",
-        "processId": 4995,
+        "name": "com.epn.covidcitoMalhechor",
+        "processId": 6501,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 25053,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 28163,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 6243,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 8750,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 10649,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
             "name": "com.sec.android.app.launcher",
             "processId": 4995,
+            "exited": false
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.vanced.android.youtube",
+            "processId": 16613,
+            "exited": false
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 17693,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 24176,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 30915,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 970,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 1511,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 2233,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 6501,
             "exited": false
         }
     ],
@@ -95,7 +113,7 @@
         "MemoryGroup": 1,
         "Behavior": 1
     },
-    "m_Filter": "",
+    "m_Filter": "Anoth",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }

@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - DanielLochner.Assets.SimpleScrollSnap.DynamicContentController
     - DanielLochner.Assets.SimpleScrollSnap.SimpleScrollSnap
     - PlaneDiscoveryGuide
+    - Propierties
     - Test
     - collectObjects.MainScenary
     - covidcitoMalhechor.Scripts.GUI.RawImageVideoPlayer
@@ -123,43 +124,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12896}
     - Class: 114
-      Script: {instanceID: 12980}
+      Script: {instanceID: 12918}
     - Class: 114
-      Script: {instanceID: 13042}
+      Script: {instanceID: 12982}
     - Class: 114
-      Script: {instanceID: 13150}
+      Script: {instanceID: 13044}
     - Class: 114
-      Script: {instanceID: 13330}
+      Script: {instanceID: 13152}
     - Class: 114
-      Script: {instanceID: 13410}
+      Script: {instanceID: 13332}
     - Class: 114
-      Script: {instanceID: 13848}
+      Script: {instanceID: 13412}
     - Class: 114
-      Script: {instanceID: 14196}
+      Script: {instanceID: 13850}
     - Class: 114
-      Script: {instanceID: 14216}
+      Script: {instanceID: 14198}
     - Class: 114
-      Script: {instanceID: 14238}
+      Script: {instanceID: 14218}
     - Class: 114
-      Script: {instanceID: 14478}
+      Script: {instanceID: 14240}
     - Class: 114
-      Script: {instanceID: 14512}
+      Script: {instanceID: 14480}
     - Class: 114
-      Script: {instanceID: 14682}
+      Script: {instanceID: 14514}
     - Class: 114
-      Script: {instanceID: 14722}
+      Script: {instanceID: 14684}
     - Class: 114
-      Script: {instanceID: 14964}
+      Script: {instanceID: 14724}
     - Class: 114
-      Script: {instanceID: 14982}
+      Script: {instanceID: 14966}
     - Class: 114
-      Script: {instanceID: 15142}
+      Script: {instanceID: 14984}
     - Class: 114
-      Script: {instanceID: 15170}
+      Script: {instanceID: 15144}
     - Class: 114
-      Script: {instanceID: 15326}
+      Script: {instanceID: 15172}
     - Class: 114
-      Script: {instanceID: 25252}
+      Script: {instanceID: 15328}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -529,6 +530,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPlane
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Propierties
   - hash:
       serializedVersion: 2
       Hash: 13721af2852b2671bc893de623ee1046

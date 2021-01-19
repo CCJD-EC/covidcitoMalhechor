@@ -1859,7 +1859,6 @@ GameObject:
   - component: {fileID: 626133069}
   - component: {fileID: 626133068}
   - component: {fileID: 626133071}
-  - component: {fileID: 626133070}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -1921,23 +1920,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 1568414836858200, guid: ac70566e086020f8182591c9bc9e33ac, type: 3}
   m_DetectionMode: -1
---- !u!114 &626133070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626133065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9463f264b8b680a38a53c5c84e3361c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  arCamera: {fileID: 1338091674}
-  _objectName: 
-  _touchPosition: {x: 0, y: 0}
-  _arRaycastManager: {fileID: 0}
-  _onTouchHold: 0
 --- !u!114 &626133071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1950,7 +1932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75fa8c634fa3aabfda8cc3c72ac12c45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arCamera: {fileID: 0}
+  arCamera: {fileID: 1338091674}
   tablePrefab: {fileID: 9016391758957655406, guid: 7ac0c956e55a0946ebb61ecdf55ee222, type: 3}
   stepsPrefab: {fileID: 2185325755437702288, guid: c6c1ceed91be7d528a0ba3142bc631ac, type: 3}
   welcomePanel: {fileID: 1401425518}

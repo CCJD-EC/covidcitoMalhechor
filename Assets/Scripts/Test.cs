@@ -24,13 +24,15 @@ public class Test : MonoBehaviour
         new Vector3(0.331f, 0.95f, 0.049f)
     };
 
-    
+
     private float _ypositionAbs = 0;
+
     public GameObject[] MPrefab
     {
         get => mPrefab;
         set => mPrefab = value;
     }
+
     void Start()
     {
         m_animator = GetComponent<Animator>();
@@ -55,24 +57,23 @@ public class Test : MonoBehaviour
                     _ypositionAbs = itemPosition.y;
                 }
 
-                if (index==0)
+                if (index == 0)
                 {
                     n_items[0].SetActive(false);
                 }
+
                 index++;
             }
 
             n_coordinates.Clear();
             n_coordinates = tempCoord;
-           Debug.Log("New Array position " + n_coordinates);
+            Debug.Log("New Array position " + n_coordinates);
         }
         else
         {
             var i = 0;
             foreach (var item in n_items)
             {
-                Debug.Log("Objects List" + n_items.Count);
-
                 try
                 {
                     var state = item.GetComponent<Propierties>().Vstate;
@@ -87,9 +88,9 @@ public class Test : MonoBehaviour
                 }
                 catch (Exception e)
                 {
-                    Debug.Log("Error, Can't get a state");
+                    Debug.Log("Error, Can't get to state\n"+e);
                 }
-                
+
                 i++;
                 Debug.Log("n_coordinates[i].y " + i + " " + item.transform.position.y);
             }
@@ -101,5 +102,4 @@ public class Test : MonoBehaviour
         return m_animator.GetCurrentAnimatorStateInfo(0).length >
                m_animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
     }
-    
 }
