@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BagController
     - DanielLochner.Assets.SimpleScrollSnap.DynamicContentController
     - DanielLochner.Assets.SimpleScrollSnap.SimpleScrollSnap
     - PlaneDiscoveryGuide
@@ -161,6 +162,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 15172}
     - Class: 114
       Script: {instanceID: 15328}
+    - Class: 114
+      Script: {instanceID: 24254}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1310,6 +1313,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnObjectPlane
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BagController
   platform: 13
   scenePathNames:
   - Assets/Scenes/collectObjects.unity

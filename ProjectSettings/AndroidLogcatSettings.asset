@@ -1,10 +1,10 @@
 {
     "m_SelectedDeviceId": "ce05160565b1073603",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
-        "exited": false
+        "deviceId": "ce05160565b1073603",
+        "name": "com.epn.covidcitoMalhechor",
+        "processId": 19729,
+        "exited": true
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -17,37 +17,43 @@
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.vanced.android.youtube",
-            "processId": 16613,
+            "processId": 8958,
             "exited": false
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 10243,
+            "processId": 1599,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 10806,
+            "processId": 2446,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 17536,
+            "processId": 7227,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 20616,
+            "processId": 12533,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 26074,
+            "processId": 16453,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 19729,
             "exited": true
         }
     ],
@@ -101,7 +107,7 @@
         "MemoryGroup": 1,
         "Behavior": 1
     },
-    "m_Filter": "_objectNameSelected",
+    "m_Filter": "Change bag options",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }
