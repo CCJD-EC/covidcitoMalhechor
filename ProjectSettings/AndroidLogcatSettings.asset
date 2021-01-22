@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "ce05160565b1073603",
         "name": "com.epn.covidcitoMalhechor",
-        "processId": 19729,
+        "processId": 5202,
         "exited": true
     },
     "m_SelectedPriority": 0,
@@ -23,37 +23,43 @@
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 1599,
+            "processId": 28565,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 2446,
+            "processId": 30124,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 7227,
+            "processId": 32767,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 12533,
+            "processId": 2014,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 16453,
+            "processId": 2674,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 19729,
+            "processId": 3153,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 5202,
             "exited": true
         }
     ],
@@ -107,7 +113,7 @@
         "MemoryGroup": 1,
         "Behavior": 1
     },
-    "m_Filter": "Change bag options",
+    "m_Filter": "Est",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }
