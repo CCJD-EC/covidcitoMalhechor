@@ -3,64 +3,64 @@
     "m_SelectedPackage": {
         "deviceId": "ce05160565b1073603",
         "name": "com.epn.covidcitoMalhechor",
-        "processId": 5202,
-        "exited": true
+        "processId": 6477,
+        "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.sec.android.app.launcher",
-            "processId": 4995,
+            "processId": 5087,
             "exited": false
         },
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.vanced.android.youtube",
-            "processId": 8958,
+            "name": "com.samsung.android.MtpApplication",
+            "processId": 2583,
             "exited": false
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 28565,
+            "processId": 8375,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 30124,
+            "processId": 17137,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 32767,
+            "processId": 20188,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 2014,
+            "processId": 26770,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 2674,
+            "processId": 1951,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 3153,
-            "exited": true
+            "name": "com.google.android.gm",
+            "processId": 4596,
+            "exited": false
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 5202,
-            "exited": true
+            "processId": 6477,
+            "exited": false
         }
     ],
     "m_Tags": {
@@ -113,7 +113,7 @@
         "MemoryGroup": 1,
         "Behavior": 1
     },
-    "m_Filter": "Est",
+    "m_Filter": "Tel",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }
