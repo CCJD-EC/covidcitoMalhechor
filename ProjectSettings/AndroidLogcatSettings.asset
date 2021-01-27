@@ -3,8 +3,8 @@
     "m_SelectedPackage": {
         "deviceId": "ce05160565b1073603",
         "name": "com.epn.covidcitoMalhechor",
-        "processId": 6477,
-        "exited": false
+        "processId": 20981,
+        "exited": true
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -16,51 +16,39 @@
         },
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.samsung.android.MtpApplication",
-            "processId": 2583,
-            "exited": false
-        },
-        {
-            "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 8375,
+            "processId": 5529,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 17137,
+            "processId": 8637,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 20188,
+            "processId": 12255,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 26770,
+            "processId": 14648,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 1951,
+            "processId": 16754,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.google.android.gm",
-            "processId": 4596,
-            "exited": false
-        },
-        {
-            "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 6477,
-            "exited": false
+            "processId": 20981,
+            "exited": true
         }
     ],
     "m_Tags": {
@@ -113,7 +101,7 @@
         "MemoryGroup": 1,
         "Behavior": 1
     },
-    "m_Filter": "Tel",
+    "m_Filter": "Tell",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }
