@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/collectObjects.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/shotCovidObjects.unity
+    guid: 0bab593744f66937d85d3387bc605589
   - enabled: 0
     path: Assets/Scenes/Test.unity
     guid: 4d7995848785b1bd2a56c2ed0a0f8461

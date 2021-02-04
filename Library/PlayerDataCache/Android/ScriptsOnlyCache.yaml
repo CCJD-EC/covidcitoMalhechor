@@ -3,11 +3,10 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - DanielLochner.Assets.SimpleScrollSnap.DynamicContentController
     - DanielLochner.Assets.SimpleScrollSnap.SimpleScrollSnap
-    - PlaneDiscoveryGuide
-    - Propierties
-    - Test
-    - collectObjects.MainScenary
-    - covidcitoMalhechor.Scripts.GUI.RawImageVideoPlayer
+    - PlacementObject
+    - generateEnemigesC
+    - properties
+    - shotCovidCollection.MainScenaryShot
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -24,6 +23,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     Unity.XR.ARCore.Editor.dll:
     - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARCore.dll:
@@ -60,7 +60,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
   sceneClasses:
-    Assets/Scenes/collectObjects.unity:
+    Assets/Scenes/shotCovidObjects.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -89,6 +89,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -110,60 +112,62 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11916}
     - Class: 114
-      Script: {instanceID: 11960}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 12296}
+      Script: {instanceID: 11962}
     - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 12298}
     - Class: 114
-      Script: {instanceID: 12516}
+      Script: {instanceID: 12522}
     - Class: 114
-      Script: {instanceID: 12520}
+      Script: {instanceID: 12898}
     - Class: 114
-      Script: {instanceID: 12596}
+      Script: {instanceID: 12986}
     - Class: 114
-      Script: {instanceID: 12896}
+      Script: {instanceID: 13048}
     - Class: 114
-      Script: {instanceID: 12918}
+      Script: {instanceID: 13156}
     - Class: 114
-      Script: {instanceID: 12984}
+      Script: {instanceID: 13336}
     - Class: 114
-      Script: {instanceID: 13046}
+      Script: {instanceID: 13416}
     - Class: 114
-      Script: {instanceID: 13154}
+      Script: {instanceID: 13514}
     - Class: 114
-      Script: {instanceID: 13334}
+      Script: {instanceID: 13856}
     - Class: 114
-      Script: {instanceID: 13414}
+      Script: {instanceID: 14146}
     - Class: 114
-      Script: {instanceID: 13852}
+      Script: {instanceID: 14204}
     - Class: 114
-      Script: {instanceID: 14200}
+      Script: {instanceID: 14224}
     - Class: 114
-      Script: {instanceID: 14220}
+      Script: {instanceID: 14246}
     - Class: 114
-      Script: {instanceID: 14242}
+      Script: {instanceID: 14346}
     - Class: 114
-      Script: {instanceID: 14482}
+      Script: {instanceID: 14522}
     - Class: 114
-      Script: {instanceID: 14516}
+      Script: {instanceID: 14692}
     - Class: 114
-      Script: {instanceID: 14686}
+      Script: {instanceID: 14732}
     - Class: 114
-      Script: {instanceID: 14726}
+      Script: {instanceID: 14974}
     - Class: 114
-      Script: {instanceID: 14968}
+      Script: {instanceID: 14992}
     - Class: 114
-      Script: {instanceID: 14986}
+      Script: {instanceID: 15142}
     - Class: 114
-      Script: {instanceID: 15146}
+      Script: {instanceID: 15152}
     - Class: 114
-      Script: {instanceID: 15174}
+      Script: {instanceID: 15180}
     - Class: 114
-      Script: {instanceID: 15330}
+      Script: {instanceID: 15336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -180,12 +184,6 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    - Class: 328
-      Script: {instanceID: 0}
-    - Class: 329
-      Script: {instanceID: 0}
-    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -224,6 +222,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 8fb22cad04aa00461da2c9d3f8356ac6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: generateEnemigesC
   - hash:
       serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
@@ -712,6 +716,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 31cb5e745d95b0888c07118fe3b94714
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: properties
+  - hash:
+      serializedVersion: 2
       Hash: 3375c3d749f8f4cad889721b431bdc27
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -946,6 +956,12 @@ ScriptsOnlyBuild:
     className: PlacementManyObjectsController
   - hash:
       serializedVersion: 2
+      Hash: 8e405d6aecd1dab453e67e9f72c6e738
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: shotCovidCollection
+    className: MainScenaryShot
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -979,7 +995,7 @@ ScriptsOnlyBuild:
       Hash: a7c32d01db140cfd20160ffee48f9a49
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Test
+    className: SpawnObjectOn
   - hash:
       serializedVersion: 2
       Hash: bd3f0ca738703903e759f77536ed74fd
@@ -1318,5 +1334,5 @@ ScriptsOnlyBuild:
     className: SpawnObjectPlane
   platform: 13
   scenePathNames:
-  - Assets/Scenes/collectObjects.unity
+  - Assets/Scenes/shotCovidObjects.unity
   playerPath: /home/cris-pc/Documents/2020A.Degree Planning/Proyecto-Code/covidcitoMalhechor/liop.apk

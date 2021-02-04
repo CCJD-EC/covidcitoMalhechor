@@ -50,6 +50,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\shotCovidCollection\generateEnemigesC.cs" />
      <Compile Include="Assets\Scripts\GUI\DynamicContentController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\Scripts\GUI\RawImageVideoPlayer.cs" />
@@ -60,7 +61,7 @@
      <Compile Include="Assets\Scripts\PlaceOnPlane.cs" />
      <Compile Include="Assets\Scripts\PlacementController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-     <Compile Include="Assets\Scripts\Propierties.cs" />
+     <Compile Include="Assets\Scripts\collectObjects\Propierties.cs" />
      <Compile Include="Assets\Scripts\PlacementWithDraggingDroppingController.cs" />
      <Compile Include="Assets\Scripts\collectObjects\BagController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
@@ -70,6 +71,7 @@
      <Compile Include="Assets\Scripts\TESTS\PlacementWithManySelectionController.cs" />
      <Compile Include="Assets\Scripts\GUI\Runtime\TransitionEffect.cs" />
      <Compile Include="Assets\Scripts\GUI\Runtime\SimpleScrollSnap.cs" />
+     <Compile Include="Assets\properties.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
@@ -84,7 +86,7 @@
      <Compile Include="Assets\Scripts\PlacementManyObjectsController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
-     <Compile Include="Assets\Scripts\Test.cs" />
+     <Compile Include="Assets\Scripts\collectObjects\SpawnObjectOn.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -102,8 +104,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\Scripts\SpawnObjectPlane.cs" />
-     <Compile Include="Assets\Scripts\shotCovidCollection\generateEnemigesC.cs" />
-     <Compile Include="Assets\properties.cs" />
+     <Compile Include="Assets\Scripts\shotCovidCollection\MainScenaryShot.cs" />
      <None Include="Assets\Shaders\HumanStencil.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
