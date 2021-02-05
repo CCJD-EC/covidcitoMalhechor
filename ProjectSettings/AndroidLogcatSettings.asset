@@ -1,53 +1,47 @@
 {
     "m_SelectedDeviceId": "ce05160565b1073603",
     "m_SelectedPackage": {
-        "deviceId": "ce05160565b1073603",
-        "name": "com.epn.covidcitoMalhechor",
-        "processId": 31048,
-        "exited": true
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
+        "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 8637,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 12255,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 14648,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 16754,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 20981,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.whatsapp",
-            "processId": 787,
+            "name": "com.sec.android.app.launcher",
+            "processId": 5062,
             "exited": false
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 31048,
+            "processId": 12275,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 16108,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 19306,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 23247,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 31011,
             "exited": true
         }
     ],

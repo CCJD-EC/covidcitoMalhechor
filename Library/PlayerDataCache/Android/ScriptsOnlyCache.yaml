@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ChangeScene
     - DanielLochner.Assets.SimpleScrollSnap.DynamicContentController
     - DanielLochner.Assets.SimpleScrollSnap.SimpleScrollSnap
     - PlacementObject
@@ -60,6 +61,85 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
   sceneClasses:
+    Assets/Scenes/GUI Info.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11862}
+    - Class: 114
+      Script: {instanceID: 11864}
+    - Class: 114
+      Script: {instanceID: 11866}
+    - Class: 114
+      Script: {instanceID: 11868}
+    - Class: 114
+      Script: {instanceID: 11896}
+    - Class: 114
+      Script: {instanceID: 11962}
+    - Class: 114
+      Script: {instanceID: 12986}
+    - Class: 114
+      Script: {instanceID: 13048}
+    - Class: 114
+      Script: {instanceID: 13156}
+    - Class: 114
+      Script: {instanceID: 13416}
+    - Class: 114
+      Script: {instanceID: 13856}
+    - Class: 114
+      Script: {instanceID: 14224}
+    - Class: 114
+      Script: {instanceID: 14246}
+    - Class: 114
+      Script: {instanceID: 14692}
+    - Class: 114
+      Script: {instanceID: 14974}
+    - Class: 114
+      Script: {instanceID: 15152}
+    - Class: 114
+      Script: {instanceID: 15336}
+    - Class: 114
+      Script: {instanceID: 25216}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/shotCovidObjects.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -78,8 +158,6 @@ ScriptsOnlyBuild:
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 49
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
@@ -124,8 +202,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12986}
     - Class: 114
-      Script: {instanceID: 13048}
-    - Class: 114
       Script: {instanceID: 13156}
     - Class: 114
       Script: {instanceID: 13336}
@@ -140,10 +216,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14204}
     - Class: 114
-      Script: {instanceID: 14224}
-    - Class: 114
-      Script: {instanceID: 14246}
-    - Class: 114
       Script: {instanceID: 14346}
     - Class: 114
       Script: {instanceID: 14522}
@@ -152,13 +224,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14732}
     - Class: 114
-      Script: {instanceID: 14974}
-    - Class: 114
       Script: {instanceID: 14992}
     - Class: 114
       Script: {instanceID: 15142}
-    - Class: 114
-      Script: {instanceID: 15152}
     - Class: 114
       Script: {instanceID: 15180}
     - Class: 114
@@ -956,7 +1024,7 @@ ScriptsOnlyBuild:
     className: PlacementManyObjectsController
   - hash:
       serializedVersion: 2
-      Hash: 8e405d6aecd1dab453e67e9f72c6e738
+      Hash: 5e169b2cfc4230ff375549f7c35c04ca
     assemblyName: Assembly-CSharp.dll
     namespaceName: shotCovidCollection
     className: MainScenaryShot
@@ -1332,7 +1400,14 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnObjectPlane
+  - hash:
+      serializedVersion: 2
+      Hash: 938857e75b0b0b61ef38c7941159e0ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeScene
   platform: 13
   scenePathNames:
+  - Assets/Scenes/GUI Info.unity
   - Assets/Scenes/shotCovidObjects.unity
   playerPath: /home/cris-pc/Documents/2020A.Degree Planning/Proyecto-Code/covidcitoMalhechor/liop.apk
