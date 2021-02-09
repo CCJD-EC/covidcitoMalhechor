@@ -52,6 +52,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\shotCovidCollection\generateEnemigesC.cs" />
      <Compile Include="Assets\Scripts\GUI\DynamicContentController.cs" />
+     <Compile Include="Assets\ChangeScene.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\Scripts\GUI\RawImageVideoPlayer.cs" />
      <Compile Include="Assets\Scripts\GUI\Shared Resources\Scripts\ExpandInformation.cs" />
@@ -105,7 +106,6 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\Scripts\SpawnObjectPlane.cs" />
-     <Compile Include="Assets\ChangeScene.cs" />
      <None Include="Assets\Shaders\HumanStencil.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

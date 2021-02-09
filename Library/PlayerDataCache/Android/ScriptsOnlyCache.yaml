@@ -101,29 +101,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11962}
     - Class: 114
-      Script: {instanceID: 12986}
+      Script: {instanceID: 12006}
     - Class: 114
-      Script: {instanceID: 13048}
+      Script: {instanceID: 12988}
     - Class: 114
-      Script: {instanceID: 13156}
+      Script: {instanceID: 13050}
     - Class: 114
-      Script: {instanceID: 13416}
+      Script: {instanceID: 13158}
     - Class: 114
-      Script: {instanceID: 13856}
+      Script: {instanceID: 13418}
     - Class: 114
-      Script: {instanceID: 14224}
+      Script: {instanceID: 13858}
     - Class: 114
-      Script: {instanceID: 14246}
+      Script: {instanceID: 14226}
     - Class: 114
-      Script: {instanceID: 14692}
+      Script: {instanceID: 14248}
     - Class: 114
-      Script: {instanceID: 14974}
+      Script: {instanceID: 14694}
     - Class: 114
-      Script: {instanceID: 15152}
+      Script: {instanceID: 14976}
     - Class: 114
-      Script: {instanceID: 15336}
+      Script: {instanceID: 15154}
     - Class: 114
-      Script: {instanceID: 25216}
+      Script: {instanceID: 15338}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -194,43 +194,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11962}
     - Class: 114
-      Script: {instanceID: 12298}
+      Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 12522}
+      Script: {instanceID: 12524}
     - Class: 114
-      Script: {instanceID: 12898}
+      Script: {instanceID: 12900}
     - Class: 114
-      Script: {instanceID: 12986}
+      Script: {instanceID: 12988}
     - Class: 114
-      Script: {instanceID: 13156}
+      Script: {instanceID: 13158}
     - Class: 114
-      Script: {instanceID: 13336}
+      Script: {instanceID: 13338}
     - Class: 114
-      Script: {instanceID: 13416}
+      Script: {instanceID: 13418}
     - Class: 114
-      Script: {instanceID: 13514}
+      Script: {instanceID: 13516}
     - Class: 114
-      Script: {instanceID: 13856}
+      Script: {instanceID: 13858}
     - Class: 114
-      Script: {instanceID: 14146}
+      Script: {instanceID: 14148}
     - Class: 114
-      Script: {instanceID: 14204}
+      Script: {instanceID: 14206}
     - Class: 114
-      Script: {instanceID: 14346}
+      Script: {instanceID: 14348}
     - Class: 114
-      Script: {instanceID: 14522}
+      Script: {instanceID: 14524}
     - Class: 114
-      Script: {instanceID: 14692}
+      Script: {instanceID: 14694}
     - Class: 114
-      Script: {instanceID: 14732}
+      Script: {instanceID: 14734}
     - Class: 114
-      Script: {instanceID: 14992}
+      Script: {instanceID: 14994}
     - Class: 114
-      Script: {instanceID: 15142}
+      Script: {instanceID: 15144}
     - Class: 114
-      Script: {instanceID: 15180}
+      Script: {instanceID: 15182}
     - Class: 114
-      Script: {instanceID: 15336}
+      Script: {instanceID: 15338}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -292,7 +292,7 @@ ScriptsOnlyBuild:
     className: ARPoseDriver
   - hash:
       serializedVersion: 2
-      Hash: 8fb22cad04aa00461da2c9d3f8356ac6
+      Hash: 4d09942e50f961fd722ecad17873787a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: generateEnemigesC
@@ -320,6 +320,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: DanielLochner.Assets.SimpleScrollSnap
     className: DynamicContentController
+  - hash:
+      serializedVersion: 2
+      Hash: 938857e75b0b0b61ef38c7941159e0ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeScene
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -1024,7 +1030,7 @@ ScriptsOnlyBuild:
     className: PlacementManyObjectsController
   - hash:
       serializedVersion: 2
-      Hash: 5e169b2cfc4230ff375549f7c35c04ca
+      Hash: e05d16be6706f32929cc8b724478dfd0
     assemblyName: Assembly-CSharp.dll
     namespaceName: shotCovidCollection
     className: MainScenaryShot
@@ -1400,12 +1406,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnObjectPlane
-  - hash:
-      serializedVersion: 2
-      Hash: 938857e75b0b0b61ef38c7941159e0ea
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ChangeScene
   platform: 13
   scenePathNames:
   - Assets/Scenes/GUI Info.unity

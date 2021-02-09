@@ -1,47 +1,59 @@
 {
     "m_SelectedDeviceId": "ce05160565b1073603",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
-        "exited": false
+        "deviceId": "ce05160565b1073603",
+        "name": "com.epn.covidcitoMalhechor",
+        "processId": 9312,
+        "exited": true
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.sec.android.app.launcher",
-            "processId": 5062,
+            "name": "com.vanced.android.youtube",
+            "processId": 23191,
             "exited": false
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 12275,
+            "processId": 5459,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 16108,
+            "processId": 14581,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.sec.android.app.launcher",
+            "processId": 5155,
+            "exited": false
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 17309,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 19306,
+            "processId": 27535,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 23247,
+            "processId": 2082,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 31011,
+            "processId": 9312,
             "exited": true
         }
     ],
@@ -95,7 +107,7 @@
         "MemoryGroup": 1,
         "Behavior": 1
     },
-    "m_Filter": "Tell",
+    "m_Filter": "Ene",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }
