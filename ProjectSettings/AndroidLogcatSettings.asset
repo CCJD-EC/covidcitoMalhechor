@@ -1,59 +1,53 @@
 {
     "m_SelectedDeviceId": "ce05160565b1073603",
     "m_SelectedPackage": {
-        "deviceId": "ce05160565b1073603",
-        "name": "com.epn.covidcitoMalhechor",
-        "processId": 9312,
-        "exited": true
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
+        "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.vanced.android.youtube",
-            "processId": 23191,
-            "exited": false
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 5459,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 14581,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
             "name": "com.sec.android.app.launcher",
-            "processId": 5155,
+            "processId": 5081,
             "exited": false
         },
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 17309,
+            "name": "org.telegram.messenger",
+            "processId": 5600,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 27535,
+            "name": "org.telegram.messenger",
+            "processId": 11519,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 2082,
+            "name": "org.telegram.messenger",
+            "processId": 10580,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 9312,
+            "name": "com.vanced.android.youtube",
+            "processId": 16714,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.android.settings",
+            "processId": 29465,
+            "exited": false
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.whatsapp",
+            "processId": 4004,
             "exited": true
         }
     ],
@@ -107,7 +101,7 @@
         "MemoryGroup": 1,
         "Behavior": 1
     },
-    "m_Filter": "Ene",
+    "m_Filter": "Entre",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }

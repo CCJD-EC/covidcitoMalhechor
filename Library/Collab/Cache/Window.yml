@@ -32,13 +32,22 @@ MonoBehaviour:
     - Assets/Animations/GUI/Button/button_a_right.anim
     - Assets/Animations/GUI/Button/button_a_right.anim.meta
     - Assets/Animations/GUI/Text.meta
+    - Assets/Animations/GUI/Text/Counter.controller
+    - Assets/Animations/GUI/Text/Counter.controller.meta
     - Assets/Animations/GUI/Text/Text.controller
     - Assets/Animations/GUI/Text/Text.controller.meta
     - Assets/Animations/GUI/Text/blink.anim
     - Assets/Animations/GUI/Text/blink.anim.meta
+    - Assets/Animations/GUI/Text/counter.anim
+    - Assets/Animations/GUI/Text/counter.anim.meta
     - Assets/Animations/Sphere.controller
     - Assets/Animations/Sphere.controller.meta
     - Assets/Animations/collectObjects.meta
+    - Assets/Animations/collectObjects/Selector.meta
+    - Assets/Animations/collectObjects/Selector/arrowMove.anim
+    - Assets/Animations/collectObjects/Selector/arrowMove.anim.meta
+    - Assets/Animations/collectObjects/Selector/arrowSelector.controller
+    - Assets/Animations/collectObjects/Selector/arrowSelector.controller.meta
     - Assets/Animations/collectObjects/Steps.meta
     - Assets/Animations/collectObjects/Steps/Appear.anim
     - Assets/Animations/collectObjects/Steps/Appear.anim.meta
@@ -53,6 +62,10 @@ MonoBehaviour:
     - Assets/Animations/collectObjects/Table/SquareTable.controller.meta
     - Assets/Animations/collectObjects/Table/appear.anim
     - Assets/Animations/collectObjects/Table/appear.anim.meta
+    - Assets/BubbleProperties.cs
+    - Assets/BubbleProperties.cs.meta
+    - Assets/ChangeScene.cs
+    - Assets/ChangeScene.cs.meta
     - Assets/GUI.meta
     - Assets/GUI/Icons.meta
     - Assets/GUI/Icons/PNG.meta
@@ -144,12 +157,20 @@ MonoBehaviour:
     - Assets/GUI/PreviewScenes/WoodenBlocksPreviewSettings.lighting
     - Assets/GUI/PreviewScenes/WoodenBlocksPreviewSettings.lighting.meta
     - Assets/Materials.meta
+    - Assets/Materials/BottleTexture.mat
+    - Assets/Materials/BottleTexture.mat.meta
+    - Assets/Materials/BubbleTexture.mat
+    - Assets/Materials/BubbleTexture.mat.meta
     - Assets/Materials/FeatheredPlaneMaterial.mat
     - Assets/Materials/FeatheredPlaneMaterial.mat.meta
+    - Assets/Materials/GlovesTexture.mat
+    - Assets/Materials/GlovesTexture.mat.meta
     - Assets/Materials/Placed (copy).mat
     - Assets/Materials/Placed (copy).mat.meta
     - Assets/Materials/PlaneMaterial.mat
     - Assets/Materials/PlaneMaterial.mat.meta
+    - Assets/Materials/SprayTexture.mat
+    - Assets/Materials/SprayTexture.mat.meta
     - Assets/Materials/SquareTable.mat
     - Assets/Materials/SquareTable.mat.meta
     - Assets/Materials/Transparent.mat
@@ -158,6 +179,8 @@ MonoBehaviour:
     - Assets/Materials/VertexLitDiffuseCircle.mat.meta
     - Assets/Materials/VertexLitDiffuseRoundedSquare.mat
     - Assets/Materials/VertexLitDiffuseRoundedSquare.mat.meta
+    - Assets/Materials/bag_texture.mat
+    - Assets/Materials/bag_texture.mat.meta
     - Assets/Materials/texture.mat
     - Assets/Materials/texture.mat.meta
     - Assets/Prefabs.meta
@@ -174,6 +197,8 @@ MonoBehaviour:
     - Assets/Prefabs/GUI Resources.meta
     - Assets/Prefabs/GUI Resources/Panel.prefab
     - Assets/Prefabs/GUI Resources/Panel.prefab.meta
+    - Assets/Prefabs/GUI Resources/Score.prefab
+    - Assets/Prefabs/GUI Resources/Score.prefab.meta
     - Assets/Prefabs/GUI Resources/Toggle.prefab
     - Assets/Prefabs/GUI Resources/Toggle.prefab.meta
     - Assets/Prefabs/Particles.meta
@@ -182,6 +207,8 @@ MonoBehaviour:
     - Assets/Prefabs/Surface.png
     - Assets/Prefabs/Surface.png.meta
     - Assets/Prefabs/Test.meta
+    - Assets/Prefabs/Test/Cube.prefab
+    - Assets/Prefabs/Test/Cube.prefab.meta
     - Assets/Prefabs/Test/PlacedObjectLarge.prefab
     - Assets/Prefabs/Test/PlacedObjectLarge.prefab.meta
     - Assets/Prefabs/Test/PlacedObjectSmall.prefab
@@ -192,14 +219,50 @@ MonoBehaviour:
     - Assets/Prefabs/Test/Steps.prefab.meta
     - Assets/Prefabs/Test/StepsAnim.prefab
     - Assets/Prefabs/Test/StepsAnim.prefab.meta
+    - Assets/Prefabs/Test/bubble.fbx
+    - Assets/Prefabs/Test/bubble.fbx.meta
+    - Assets/Prefabs/Test/bubble.prefab
+    - Assets/Prefabs/Test/bubble.prefab.meta
     - Assets/Prefabs/collectObjectsElements.meta
+    - Assets/Prefabs/collectObjectsElements/Gloves Variant.prefab
+    - Assets/Prefabs/collectObjectsElements/Gloves Variant.prefab.meta
+    - Assets/Prefabs/collectObjectsElements/Gloves.fbx
+    - Assets/Prefabs/collectObjectsElements/Gloves.fbx.meta
+    - Assets/Prefabs/collectObjectsElements/N95Mask.fbx
+    - Assets/Prefabs/collectObjectsElements/N95Mask.fbx.meta
+    - Assets/Prefabs/collectObjectsElements/N95Mask.prefab
+    - Assets/Prefabs/collectObjectsElements/N95Mask.prefab.meta
+    - Assets/Prefabs/collectObjectsElements/Selected.prefab
+    - Assets/Prefabs/collectObjectsElements/Selected.prefab.meta
     - Assets/Prefabs/collectObjectsElements/SquareTable.dae
     - Assets/Prefabs/collectObjectsElements/SquareTable.dae.meta
     - Assets/Prefabs/collectObjectsElements/SquareTable.prefab
     - Assets/Prefabs/collectObjectsElements/SquareTable.prefab.meta
+    - Assets/Prefabs/collectObjectsElements/arrowSelector.fbx
+    - Assets/Prefabs/collectObjectsElements/arrowSelector.fbx.meta
+    - Assets/Prefabs/collectObjectsElements/bag 1.fbx
+    - Assets/Prefabs/collectObjectsElements/bag 1.fbx.meta
+    - Assets/Prefabs/collectObjectsElements/bag.fbx
+    - Assets/Prefabs/collectObjectsElements/bag.fbx.meta
+    - Assets/Prefabs/collectObjectsElements/bag.prefab
+    - Assets/Prefabs/collectObjectsElements/bag.prefab.meta
+    - Assets/Prefabs/collectObjectsElements/face_shield.fbx
+    - Assets/Prefabs/collectObjectsElements/face_shield.fbx.meta
+    - Assets/Prefabs/collectObjectsElements/face_shield.prefab
+    - Assets/Prefabs/collectObjectsElements/face_shield.prefab.meta
+    - Assets/Prefabs/collectObjectsElements/smartphone.fbx
+    - Assets/Prefabs/collectObjectsElements/smartphone.fbx.meta
+    - Assets/Prefabs/collectObjectsElements/smartphone.prefab
+    - Assets/Prefabs/collectObjectsElements/smartphone.prefab.meta
+    - Assets/Prefabs/collectObjectsElements/spray.fbx
+    - Assets/Prefabs/collectObjectsElements/spray.fbx.meta
+    - Assets/Prefabs/collectObjectsElements/spray.prefab
+    - Assets/Prefabs/collectObjectsElements/spray.prefab.meta
     - Assets/Prefabs/spiu.anim
     - Assets/Prefabs/spiu.anim.meta
     - Assets/Scenes.meta
+    - Assets/Scenes/GUI Info.unity
+    - Assets/Scenes/GUI Info.unity.meta
     - Assets/Scenes/New Scene.unity
     - Assets/Scenes/New Scene.unity.meta
     - Assets/Scenes/Selection.unity
@@ -210,6 +273,8 @@ MonoBehaviour:
     - Assets/Scenes/collectObjects.unity.meta
     - Assets/Scenes/collectObjectsSettings.lighting
     - Assets/Scenes/collectObjectsSettings.lighting.meta
+    - Assets/Scenes/shotCovidObjects.unity
+    - Assets/Scenes/shotCovidObjects.unity.meta
     - Assets/Scripts.meta
     - Assets/Scripts/GUI.meta
     - Assets/Scripts/GUI/DynamicContentController.cs
@@ -260,11 +325,20 @@ MonoBehaviour:
     - Assets/Scripts/TESTS/PlacementWithManySelectionController.cs.meta
     - Assets/Scripts/TESTS/SelectionFromCameraOrigin.cs
     - Assets/Scripts/TESTS/SelectionFromCameraOrigin.cs.meta
-    - Assets/Scripts/Test.cs
-    - Assets/Scripts/Test.cs.meta
     - Assets/Scripts/collectObjects.meta
+    - Assets/Scripts/collectObjects/BagController.cs
+    - Assets/Scripts/collectObjects/BagController.cs.meta
     - Assets/Scripts/collectObjects/MainScenary.cs
     - Assets/Scripts/collectObjects/MainScenary.cs.meta
+    - Assets/Scripts/collectObjects/Propierties.cs
+    - Assets/Scripts/collectObjects/Propierties.cs.meta
+    - Assets/Scripts/collectObjects/SpawnObjectOn.cs
+    - Assets/Scripts/collectObjects/SpawnObjectOn.cs.meta
+    - Assets/Scripts/shotCovidCollection.meta
+    - Assets/Scripts/shotCovidCollection/MainScenaryShot.cs
+    - Assets/Scripts/shotCovidCollection/MainScenaryShot.cs.meta
+    - Assets/Scripts/shotCovidCollection/generateEnemigesC.cs
+    - Assets/Scripts/shotCovidCollection/generateEnemigesC.cs.meta
     - Assets/Shaders.meta
     - Assets/Shaders/DepthGradient.shader
     - Assets/Shaders/DepthGradient.shader.meta
@@ -647,6 +721,12 @@ MonoBehaviour:
     - Assets/TextMesh Pro/Sprites/EmojiOne.png
     - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
     - Assets/Textures.meta
+    - Assets/Textures/Bottle_Texture_Map.jpg
+    - Assets/Textures/Bottle_Texture_Map.jpg.meta
+    - Assets/Textures/Glove2Normal.jpeg
+    - Assets/Textures/Glove2Normal.jpeg.meta
+    - Assets/Textures/Pill-Bottle-Label-PSD-Template.jpg
+    - Assets/Textures/Pill-Bottle-Label-PSD-Template.jpg.meta
     - Assets/Textures/PlanePatternDot.png
     - Assets/Textures/PlanePatternDot.png.meta
     - Assets/Textures/Tables.meta
@@ -657,8 +737,12 @@ MonoBehaviour:
     - Assets/Textures/Tables/SquareTable/SquareTable_SquareTable-material_MetallicSmoothness.png.meta
     - Assets/Textures/Tables/SquareTable/SquareTable_SquareTable-material_Normal.png
     - Assets/Textures/Tables/SquareTable/SquareTable_SquareTable-material_Normal.png.meta
+    - Assets/Textures/bubble_shot_icon.png
+    - Assets/Textures/bubble_shot_icon.png.meta
     - Assets/Textures/distance.png
     - Assets/Textures/distance.png.meta
+    - Assets/Textures/textura_bag.jpg
+    - Assets/Textures/textura_bag.jpg.meta
     - Assets/Textures/transparent.png
     - Assets/Textures/transparent.png.meta
     - Assets/Videos.meta
@@ -683,13 +767,16 @@ MonoBehaviour:
     - Assets/XR/Settings/Mock HMD Build Settings.asset.meta
     - Assets/XR/XRGeneralSettings.asset
     - Assets/XR/XRGeneralSettings.asset.meta
+    - Assets/properties.cs
+    - Assets/properties.cs.meta
     - Packages/manifest.json
     - Packages/packages-lock.json
+    - ProjectSettings/EditorBuildSettings.asset
     - ProjectSettings/ProjectSettings.asset
     - ProjectSettings/TagManager.asset
     - ProjectSettings/UnityConnectSettings.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

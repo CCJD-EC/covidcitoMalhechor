@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class PlacementObject : MonoBehaviour
 {
-    [SerializeField]
+    
     private bool IsSelected;
 
-    [SerializeField]
+    
     private bool IsLocked;
 
     public bool Selected 
