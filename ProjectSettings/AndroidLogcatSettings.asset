@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "ce05160565b1073603",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "ce05160565b1073603",
+        "name": "com.epn.covidcitoMalhechor",
+        "processId": 13971,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -16,39 +16,51 @@
         },
         {
             "deviceId": "ce05160565b1073603",
-            "name": "org.telegram.messenger",
-            "processId": 5600,
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 22058,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
-            "name": "org.telegram.messenger",
-            "processId": 11519,
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 24760,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
-            "name": "org.telegram.messenger",
-            "processId": 10580,
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 27534,
             "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.vanced.android.youtube",
-            "processId": 16714,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.android.settings",
-            "processId": 29465,
+            "processId": 15942,
             "exited": false
         },
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.whatsapp",
-            "processId": 4004,
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 726,
             "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 2909,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 7159,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 13971,
+            "exited": false
         }
     ],
     "m_Tags": {
@@ -101,7 +113,7 @@
         "MemoryGroup": 1,
         "Behavior": 1
     },
-    "m_Filter": "Entre",
+    "m_Filter": "Mi",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }
