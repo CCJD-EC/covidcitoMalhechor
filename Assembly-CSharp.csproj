@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scripts\TESTS\PlacementWithManySelectionController.cs" />
      <Compile Include="Assets\Scripts\GUI\Runtime\TransitionEffect.cs" />
      <Compile Include="Assets\Scripts\GUI\Runtime\SimpleScrollSnap.cs" />
+     <Compile Include="Assets\Scripts\OldManSick\MeasurementController.cs" />
      <Compile Include="Assets\properties.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />

@@ -3,64 +3,52 @@
     "m_SelectedPackage": {
         "deviceId": "ce05160565b1073603",
         "name": "com.epn.covidcitoMalhechor",
-        "processId": 13971,
-        "exited": false
+        "processId": 28109,
+        "exited": true
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "ce05160565b1073603",
-            "name": "com.sec.android.app.launcher",
-            "processId": 5081,
-            "exited": false
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 22058,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 24760,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 27534,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
             "name": "com.vanced.android.youtube",
-            "processId": 15942,
+            "processId": 25853,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 18684,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 22510,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 24633,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 26847,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.sec.android.app.launcher",
+            "processId": 18932,
             "exited": false
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
-            "processId": 726,
+            "processId": 28109,
             "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 2909,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 7159,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 13971,
-            "exited": false
         }
     ],
     "m_Tags": {
