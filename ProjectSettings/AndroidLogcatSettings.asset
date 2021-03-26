@@ -1,37 +1,13 @@
 {
     "m_SelectedDeviceId": "ce05160565b1073603",
     "m_SelectedPackage": {
-        "deviceId": "ce05160565b1073603",
-        "name": "com.epn.covidcitoMalhechor",
-        "processId": 28109,
-        "exited": true
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
+        "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.vanced.android.youtube",
-            "processId": 25853,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 18684,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 22510,
-            "exited": true
-        },
-        {
-            "deviceId": "ce05160565b1073603",
-            "name": "com.epn.covidcitoMalhechor",
-            "processId": 24633,
-            "exited": true
-        },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
@@ -42,13 +18,31 @@
             "deviceId": "ce05160565b1073603",
             "name": "com.sec.android.app.launcher",
             "processId": 18932,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "ce05160565b1073603",
             "name": "com.epn.covidcitoMalhechor",
             "processId": 28109,
             "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.vanced.android.youtube",
+            "processId": 20296,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.epn.covidcitoMalhechor",
+            "processId": 24009,
+            "exited": true
+        },
+        {
+            "deviceId": "ce05160565b1073603",
+            "name": "com.google.android.gm",
+            "processId": 26091,
+            "exited": false
         }
     ],
     "m_Tags": {
